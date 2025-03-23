@@ -1,7 +1,6 @@
 package Ejercicio1Nivel1;
 
 abstract class Instrument {
-
     static {
         System.out.println("\n\nthe band is getting ready to play\n");
     }

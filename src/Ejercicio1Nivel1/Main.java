@@ -10,12 +10,8 @@ public class Main {
         stringed1.playInstruments();
         Instrument percussion1 = new Percussion("Drum", 150);
         percussion1.playInstruments();
-
         System.out.println(wind1.playInstruments());
         System.out.println(stringed1.playInstruments());
         System.out.println(percussion1.playInstruments());
-
-
-
     }
 }

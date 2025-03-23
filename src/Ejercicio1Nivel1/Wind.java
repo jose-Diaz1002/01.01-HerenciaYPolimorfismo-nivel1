@@ -5,8 +5,8 @@ public class Wind extends Instrument {
     static {
         System.out.println("Wind instruments ready");
     }
-
     public Wind(String name, int price){
+
         super(name, price);
     }
     public String playInstruments() {

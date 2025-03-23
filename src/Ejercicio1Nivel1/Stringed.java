@@ -6,10 +6,12 @@ public class Stringed extends Instrument {
     }
 
     public Stringed(String name, int price){
+
         super(name, price);
     }
 
     public String playInstruments() {
+
         return ("The stringed instrument is playing.");
     }
 }
