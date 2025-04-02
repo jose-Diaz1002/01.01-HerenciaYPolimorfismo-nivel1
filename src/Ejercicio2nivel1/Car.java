@@ -9,6 +9,7 @@ public class Car {
         this.POWER = power;
         Car.model = model;
     }
+
     public static String brake() {
         return "The vehicle is braking";
     }
@@ -19,8 +20,8 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car: " + Car.BRAND + "\nmodel: " + model+
-               "\npower= " + POWER +" Hp\n" ;
+        return "Car: " + Car.BRAND + "\nmodel: " + model +
+                "\npower= " + POWER + " Hp\n";
     }
 }
 

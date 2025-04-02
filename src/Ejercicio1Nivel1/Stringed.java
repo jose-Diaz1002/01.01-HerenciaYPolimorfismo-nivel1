@@ -5,11 +5,12 @@ public class Stringed extends Instrument {
         System.out.println("Stringed instruments ready");
     }
 
-    public Stringed(String name, int price){
+    public Stringed(String name, int price) {
 
         super(name, price);
     }
 
+    @Override
     public String playInstruments() {
 
         return ("The stringed instrument is playing.");

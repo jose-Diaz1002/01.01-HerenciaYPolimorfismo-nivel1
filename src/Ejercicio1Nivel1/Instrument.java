@@ -4,10 +4,11 @@ abstract class Instrument {
     static {
         System.out.println("\n\nthe band is getting ready to play\n");
     }
+
     private String name;
     private int price;
 
-    public Instrument(String name, int price){
+    public Instrument(String name, int price) {
         this.name = name;
         this.price = price;
     }
@@ -21,4 +22,6 @@ abstract class Instrument {
                 ", price=" + price +
                 '}';
     }
+
+
 }

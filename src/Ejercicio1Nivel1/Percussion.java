@@ -5,11 +5,12 @@ public class Percussion extends Instrument {
         System.out.println("the percussion instruments ready\n");
     }
 
-    public Percussion(String name, int price){
+    public Percussion(String name, int price) {
 
         super(name, price);
     }
 
+    @Override
     public String playInstruments() {
 
         return ("The percussion instrument is playing.");
